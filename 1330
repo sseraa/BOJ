@@ -1,0 +1,30 @@
+//1330
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        
+   // comparing
+        Scanner sc = new Scanner(System.in);
+        // -10000<= A,B <= 10000 ???
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        sc.close();
+        
+        /*
+        if(A>B) System.out.println(">");
+        else if(A<B) System.out.println("<");
+        else System.out.println("==");
+        */
+        
+        System.out.println((A>B)?">" : (A<B)?"<" : "==");
+        
+        
+
+                       
+
+    }
+    
+
+}
