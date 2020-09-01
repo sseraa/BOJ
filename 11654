@@ -1,0 +1,19 @@
+//11654
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int i = (int) sc.next().charAt(0);
+	// (int) sc.nextLine().charAt(0) read character from keyboard
+        
+        sc.close(); 
+        
+        System.out.println(i);
+        
+
+    }
+
+}
